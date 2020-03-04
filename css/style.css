@@ -1,0 +1,48 @@
+#main-header img {
+  width: 100%;
+  height: 100%;
+}
+
+#main-header .port-item {
+  width: 30%;
+}
+
+#main-header .port-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.bg-black {
+  color: #fff;
+  background: #000;
+}
+
+@media (min-width: 1199px) {
+  .port-item {
+    padding: 4em !important;
+  }
+}
+
+.fa-linkedin,
+.fa-github,
+.fa-codepen,
+.fa-stack-overflow {
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.fa-linkedin:hover {
+    color: #007bb5;
+}
+
+.fa-github:hover {
+    color: #000000;
+}
+
+.fa-codepen:hover {
+    color: #212121;
+}
+
+.fa-stack-overflow:hover {
+    color: #F48024;
+}
